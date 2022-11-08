@@ -1,0 +1,28 @@
+1. You are given two interior angles (in degrees) of a triangle.
+
+Write a function to return the 3rd.
+
+Note: only positive integers will be tested.
+
+function otherAngle(a, b) {
+  return 180-(a+b);
+}
+
+2. When provided with a String, capitalize all vowels
+
+For example:
+
+Input : "Hello World!"
+
+Output : "HEllO WOrld!"
+
+Note: Y is not a vowel in this kata.
+
+var swap = string => string.replace(/[aeiou]/g, v => v.toUpperCase());
+
+
+3. This code should store "codewa.rs" as a variable called name but it's not working. Can you figure out why?
+
+var a = "code";
+var b = "wa.rs";
+var name = a + b;
